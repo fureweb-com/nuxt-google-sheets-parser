@@ -1,4 +1,4 @@
-# nuxtjs-public-google-sheets-parser
+# nuxt-google-sheets-parser
 
 <!-- [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
@@ -12,19 +12,19 @@
 
 ## Setup
 
-1. Add `nuxtjs-public-google-sheets-parser` dependency to your project
+1. Add `nuxt-google-sheets-parser` dependency to your project
 
 ```bash
-yarn add nuxtjs-public-google-sheets-parser
-# or npm install nuxtjs-public-google-sheets-parser
+yarn add nuxt-google-sheets-parser
+# or npm install nuxt-google-sheets-parser
 ```
 
-2. Add `nuxtjs-public-google-sheets-parser` to the `modules` section of `nuxt.config.js`
+2. Add `nuxt-google-sheets-parser` to the `modules` section of `nuxt.config.js`
 
 ```js
 {
   modules: [
-    'nuxtjs-public-google-sheets-parser'
+    'nuxt-google-sheets-parser'
   ]
 }
 ```
@@ -64,17 +64,17 @@ export default {
 Copyright (c) Jihwan Oh
 
 <!-- Badges -->
-<!-- [npm-version-src]: https://img.shields.io/npm/v/nuxtjs-public-google-sheets-parser/latest.svg
-[npm-version-href]: https://npmjs.com/package/nuxtjs-public-google-sheets-parser
+<!-- [npm-version-src]: https://img.shields.io/npm/v/nuxt-google-sheets-parser/latest.svg
+[npm-version-href]: https://npmjs.com/package/nuxt-google-sheets-parser
 
-[npm-downloads-src]: https://img.shields.io/npm/dt/nuxtjs-public-google-sheets-parser.svg
-[npm-downloads-href]: https://npmjs.com/package/nuxtjs-public-google-sheets-parser
+[npm-downloads-src]: https://img.shields.io/npm/dt/nuxt-google-sheets-parser.svg
+[npm-downloads-href]: https://npmjs.com/package/nuxt-google-sheets-parser
 
-[github-actions-ci-src]: https://github.com/https://github.com/fureweb-com/nuxtjs-public-google-sheets-parser/workflows/ci/badge.svg
-[github-actions-ci-href]: https://github.com/https://github.com/fureweb-com/nuxtjs-public-google-sheets-parser/actions?query=workflow%3Aci
+[github-actions-ci-src]: https://github.com/https://github.com/fureweb-com/nuxt-google-sheets-parser/workflows/ci/badge.svg
+[github-actions-ci-href]: https://github.com/https://github.com/fureweb-com/nuxt-google-sheets-parser/actions?query=workflow%3Aci
 
-[codecov-src]: https://img.shields.io/codecov/c/github/https://github.com/fureweb-com/nuxtjs-public-google-sheets-parser.svg
-[codecov-href]: https://codecov.io/gh/https://github.com/fureweb-com/nuxtjs-public-google-sheets-parser
+[codecov-src]: https://img.shields.io/codecov/c/github/https://github.com/fureweb-com/nuxt-google-sheets-parser.svg
+[codecov-href]: https://codecov.io/gh/https://github.com/fureweb-com/nuxt-google-sheets-parser
 
-[license-src]: https://img.shields.io/npm/l/nuxtjs-public-google-sheets-parser.svg
-[license-href]: https://npmjs.com/package/nuxtjs-public-google-sheets-parser -->
+[license-src]: https://img.shields.io/npm/l/nuxt-google-sheets-parser.svg
+[license-href]: https://npmjs.com/package/nuxt-google-sheets-parser -->
