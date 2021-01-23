@@ -1,8 +1,8 @@
 {
-  "name": "nuxt-public-google-sheets-parser",
+  "name": "nuxtjs-public-google-sheets-parser",
   "version": "1.1.2",
   "description": "public google sheets parser for nuxt.js",
-  "repository": "https://github.com/fureweb-com/nuxt-public-google-sheets-parser",
+  "repository": "https://github.com/fureweb-com/nuxtjs-public-google-sheets-parser",
   "keywords": [
     "nuxt.js",
     "google sheets",
