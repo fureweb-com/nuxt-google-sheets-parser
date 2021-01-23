@@ -1,21 +1,24 @@
 {
   "name": "nuxt-public-google-sheets-parser",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "public google sheets parser for nuxt.js",
   "repository": "https://github.com/fureweb-com/nuxt-public-google-sheets-parser",
-  "license": "MIT",
-  "contributors": [
-    {
-      "name": "Jihwan Oh"
-    }
+  "keywords": [
+    "nuxt.js",
+    "google sheets",
+    "spreadsheet"
   ],
+  "author": {
+    "name": "fureweb",
+    "email": "fureweb.com@gmail.com"
+  },
+  "license": "MIT",
   "files": [
     "lib"
   ],
   "main": "lib/module.js",
   "scripts": {
-    "lint": "eslint --ext .js,.vue .",
-    "release": "yarn test && standard-version && git push --follow-tags && npm publish"
+    "lint": "eslint --ext .js,.vue ."
   },
   "dependencies": {
     "public-google-sheets-parser": "^1.1.2"
