@@ -7717,10 +7717,10 @@ public-encrypt@^4.0.0:
     randombytes "^2.0.1"
     safe-buffer "^5.1.2"
 
-public-google-sheets-parser@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/public-google-sheets-parser/-/public-google-sheets-parser-1.2.0.tgz#5508177c997122cb150fc7b8002bceeda3b2edf6"
-  integrity sha512-mGuTCWw0jw5otzjDzd4ZmjrAnDOEc7wcUbdSrrHJ9z5FYPOKDtIShpPY0qg6eUHynl+I+sG1tAEeULLaTNtQzw==
+public-google-sheets-parser@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/public-google-sheets-parser/-/public-google-sheets-parser-1.2.1.tgz#e9ac55582e5dab713237f43386e16c15cbcf3766"
+  integrity sha512-QhEB0SvljSIbGVr2DRrvGtHilhxhJYWOlMzvA4TXiNYY325gG72PWE3rVlH0sr6rWJSOUhS67KpfwX4adSishA==
 
 pump@^2.0.0:
   version "2.0.1"

@@ -1,6 +1,6 @@
 {
   "name": "nuxt-google-sheets-parser",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "public google sheets parser for nuxt.js",
   "repository": "https://github.com/fureweb-com/nuxt-google-sheets-parser",
   "keywords": [
@@ -21,7 +21,7 @@
     "lint": "eslint --ext .js,.vue ."
   },
   "dependencies": {
-    "public-google-sheets-parser": "1.2.0"
+    "public-google-sheets-parser": "^1.2.1"
   },
   "devDependencies": {
     "@babel/core": "latest",
