@@ -37,8 +37,8 @@ yarn add nuxt-google-sheets-parser
 export default {
   // ...
   methods: {
-    parseSheet (sheetId, sheetName = null) {
-      return this.$gsparser.parse(sheetId, sheetName)
+    parseSheet (sheetId, sheetInfo = { sheetId: null, sheetName: null }) {
+      return this.$gsparser.parse(sheetId, sheetInfo)
     }
   },
   async mounted () {
@@ -50,6 +50,13 @@ export default {
 
     const data2 = await this.parseSheet(sheetId, 'Sheet2')
     console.log(data2) // [{"a":10,"b":20,"c":30},{"a":40,"b":50,"c":60},{"a":70,"b":80,"c":90}]
+
+    // since v1.3.0
+    const data3 = await this.parseSheet(sheetId, { sheetId: 1839148703 }) // or pass { sheetName: 'Sheet1' }
+    console.log(data3) // [{"a":1,"b":2,"c":3},{"a":4,"b":5,"c":6},{"a":7,"b":8,"c":9}]
+
+    const data4 = await this.parseSheet(sheetId, { sheetId: 784337977 }) // or pass { sheetName: 'Sheet2' }
+    console.log(data4) // [{"a":10,"b":20,"c":30},{"a":40,"b":50,"c":60},{"a":70,"b":80,"c":90}]
   },
   // ...
 }
